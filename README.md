@@ -19,7 +19,9 @@ Proyek ini mengimplementasikan sistem **Face Recognition** menggunakan teknik **
 **Dataset:** 70 kelas wajah dengan multiple images per kelas  
 **Best Model:** InceptionResnetV1 - Validation Accuracy **98.12%**  
 **Framework:** PyTorch, FaceNet-PyTorch, Scikit-learn
+
 **Model InceptionResNetv1 Pre-trained CASIA:** final_best_model.pth
+
 **Model MobileNetV2:** final_best_model_mobilenetv2.pth
 
 ---
