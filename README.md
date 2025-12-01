@@ -20,17 +20,13 @@ Proyek ini mengimplementasikan sistem **Face Recognition** menggunakan teknik **
 **Best Model:** InceptionResnetV1 - Validation Accuracy **98.12%**  
 **Framework:** PyTorch, FaceNet-PyTorch, Scikit-learn
 
-**Model InceptionResNetv1 Pre-trained CASIA:** final_best_model.pth
-
-**Model MobileNetV2:** final_best_model_mobilenetv2.pth
-
 ---
 
 ## 🔗 Link Penting
 
 - **Notebook Jupyter:** `Bebas.ipynb`
-- **Model Terbaik InceptionResnetV1:** `final_best_model.pth`
-- **Model Terbaik MobileNetV2:** `final_best_model_mobilenetv2.pth`
+- **Model Terbaik InceptionResnetV1:** [final_best_model.pth](https://github.com/axadev-id/face-attendance-ai/blob/main/final_best_model.pth)
+- **Model Terbaik MobileNetV2:** [final_best_model_mobilenetv2.pth](https://github.com/axadev-id/face-attendance-ai/blob/main/final_best_model_mobilenetv2.pth)
 - **🌐 Web Application (Demo):** [Face Recognition Attendance System](https://huggingface.co/spaces/axadragon/face-recognition-attendance)
 - ** https://huggingface.co/spaces/axadragon/face-recognition-attendance **
 
