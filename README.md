@@ -1,5 +1,17 @@
 # Face Recognition dengan Transfer Learning menggunakan InceptionResnetV1 dan MobileNetV2
 
+## 👥 Anggota Kelompok
+
+**Nama Kelompok:** kata-ichsan-nama-kelompoknya-bebas
+
+**Anggota:**
+1. [Fajrul Ramadhana Aqsa] - [122140118]
+2. [Ichsan Kuntadi Baskara] - [122140117]
+3. [Mychael Daniel N] - [122140104]
+
+---
+
+
 ## 📋 Deskripsi Singkat
 
 Proyek ini mengimplementasikan sistem **Face Recognition** menggunakan teknik **Transfer Learning** dengan dua arsitektur deep learning state-of-the-art: **InceptionResnetV1** (pretrained CASIA-WebFace) dan **MobileNetV2** (pretrained ImageNet). Sistem ini menggunakan **MTCNN** untuk deteksi wajah otomatis, **K-Fold Cross Validation** untuk evaluasi yang robust, dan berbagai teknik augmentasi data untuk meningkatkan generalisasi model.
@@ -451,7 +463,7 @@ end/
 
 ---
 
-## 👥 Kontribusi
+## 🤝 Kontribusi
 
 Kontribusi sangat diterima! Silakan:
 1. Fork repository ini
