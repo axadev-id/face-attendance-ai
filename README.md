@@ -448,18 +448,6 @@ end/
 3. **Transfer Learning** terbukti sangat efektif - pretrained pada CASIA-WebFace memberikan keunggulan signifikan untuk face recognition
 4. **K-Fold Cross Validation** memastikan evaluasi robust dan menghindari overfitting
 
-### Lessons Learned
-- ✅ Domain-specific pretraining (CASIA-WebFace) > General pretraining (ImageNet) untuk face recognition
-- ✅ Data augmentation moderate lebih optimal daripada aggressive untuk face recognition
-- ✅ Gradient accumulation + warmup + gradient clipping meningkatkan stabilitas training
-- ✅ Label smoothing (0.1) membantu regularization dan generalization
-
-### Future Work
-- [ ] Experiment dengan **ArcFace Loss** atau **Triplet Loss** untuk metric learning
-- [ ] Data augmentation berbasis **AutoAugment** atau **RandAugment**
-- [ ] Ensemble model (InceptionResnetV1 + MobileNetV2) untuk boost accuracy
-- [ ] Deployment ke **ONNX** atau **TensorRT** untuk inference optimization
-- [ ] Real-time face recognition pipeline dengan **OpenCV** + **MTCNN**
 
 ---
 
@@ -472,13 +460,6 @@ Kontribusi sangat diterima! Silakan:
 4. Push ke branch (`git push origin feature/improvement`)
 5. Buat Pull Request
 
-**Area yang bisa dikontribusi:**
-- Optimisasi hyperparameter
-- Eksperimen dengan arsitektur lain (EfficientNet, Vision Transformer)
-- Deployment scripts (Flask API, Streamlit dashboard)
-- Real-time inference optimization
-
----
 
 ## 📝 Lisensi
 
@@ -492,17 +473,6 @@ Proyek ini dibuat untuk tujuan **akademik** (Tugas Kuliah - Deep Learning Semest
 **Pretrained Models:**
 - InceptionResnetV1 (CASIA-WebFace): Research purpose only
 - MobileNetV2 (ImageNet): Apache 2.0
-
----
-
-## 🙏 Ucapan Terima Kasih
-
-- **PyTorch Team** untuk framework deep learning yang excellent
-- **Tim Whitehouse (FaceNet-PyTorch)** untuk implementasi FaceNet yang mudah digunakan
-- **Google Research** untuk MobileNetV2 architecture
-- **CASIA-WebFace** dataset contributors
-- **Dosen Pengampu** Mata Kuliah Deep Learning - Semester 7
-- **Teman-teman** yang telah berkontribusi menyediakan dataset wajah
 
 ---
 
